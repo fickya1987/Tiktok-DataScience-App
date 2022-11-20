@@ -16,7 +16,7 @@ def get_Data(hashtag):
 
     #Get data by trending
     trending = api.by_hashtag(hashtag)
-    print(trending)
+    # print(trending)
 
     #Process data
     flattened_data = process_results(trending)
